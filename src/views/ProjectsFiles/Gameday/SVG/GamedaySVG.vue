@@ -94,4 +94,11 @@
 #gd-logo.active #gd-left-laurel, #gd-logo.active #gd-right-laurel {
     transform: scaleY(1.5);
 }
+
+@media (max-width:35em){
+	#gd-logo {
+		width: 120%;
+		transform: translate(-2px, -2.5px);
+	}
+}
 </style>

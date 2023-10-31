@@ -88,4 +88,10 @@
 	transform: translateY(50px);
 }
 
+@media (max-width: 35em){
+	#vertex-svg {
+		width: 120%;
+		transform: translate(-2px,-3px);
+	}
+}
 </style>

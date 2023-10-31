@@ -64,9 +64,8 @@
 </script>
 
 <style scoped>
-
 .container {
-  padding: 4em 0;
+  padding: 4em 1em;
 }
 
 h1 {
@@ -85,6 +84,7 @@ h1 {
   gap: 1.5em; 
   font-weight: bold;
   color: #202020;
+  padding: 0;
 }
 
 .personal-info a {

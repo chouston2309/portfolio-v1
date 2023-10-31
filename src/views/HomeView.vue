@@ -6,7 +6,7 @@
     <div class="container">
       <div class="even-columns">
 
-        <div class="column-one flex">
+        <div class="column-one flex coding-column">
           <div class="coding">
             <div class="coding-title">
               <h1>Coding</h1>
@@ -33,7 +33,7 @@
           </div>
         </div>
 
-        <div class="column-two flex">
+        <div class="column-two flex design-column">
           <div class="design">
               <h1>Design</h1>
             <ul class="design-icon-list flex">

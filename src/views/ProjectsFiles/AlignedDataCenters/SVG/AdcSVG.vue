@@ -45,4 +45,11 @@
 #adc-logo.active #adc-left, #adc-logo.active #adc-right{
     opacity: 0;
 }
+
+@media (max-width: 35em){
+    #adc-logo {
+        width: 95%;
+        transform: translateY(2.5px);
+    }
+}
 </style>

@@ -111,10 +111,11 @@ export default {
 
     .project-icons-list {     
         list-style: none;
-
+        padding: 0;
         display: flex;
         justify-content: center;
         gap: 3em;
+        transition: .25s;
     }
 
     .project-icon {
@@ -164,6 +165,55 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    /*icons media queries*/
+    @media (max-width: 60em) {
+        .project-icons-list {
+            gap: 2em;
+        }
+
+        .project-icon {
+            width: 3em;
+            height: 3em;
+        }
+
+        li.project-icon:nth-child(4), li.project-icon:nth-child(3){
+            width: 4em;
+            height: 3.5em;
+        }
+    }
+
+    @media (max-width: 42em){
+        .project-icons-list {
+            gap: 2em;
+        }
+
+        .project-icon {
+            width: 2.5em;
+            height: 2.5em;
+        }
+
+        li.project-icon:nth-child(4), li.project-icon:nth-child(3){
+            width: 3.5em;
+            height: 3em;
+        }
+    }
+
+    @media (max-width: 35em){
+        .project-icons-list {
+            gap: 1em;
+        }
+
+        .project-icon {
+            width: 1.5em;
+            height: 1.5em;
+        }
+
+        li.project-icon:nth-child(4), li.project-icon:nth-child(3){
+            width: 2.5em;
+            height: 2em;
+        }
     }
 
 </style>

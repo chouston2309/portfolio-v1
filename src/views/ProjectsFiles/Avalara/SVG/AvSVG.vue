@@ -33,4 +33,11 @@
 #av-logo.active #check {
     transform: scale(1.3) translateY(-20px) translateX(3px);
 }
+
+@media (max-width: 35em){
+    #av-logo {
+		transform: translateY(2px);
+		width: 90%;
+	}
+}
 </style>

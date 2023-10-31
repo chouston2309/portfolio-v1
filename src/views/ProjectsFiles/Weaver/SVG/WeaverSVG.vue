@@ -27,4 +27,10 @@
 #weaver-logo.active #weaver-bottom{
     transform: translateY(10px);
 }
+
+@media (max-width: 35em) {
+    #weaver-logo {
+        width: 95%;
+    }
+}
 </style>

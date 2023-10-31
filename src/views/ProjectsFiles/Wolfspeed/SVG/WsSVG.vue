@@ -26,4 +26,10 @@
 #ws-logo.active #lightning {
     opacity: 1;
 }
+
+@media (max-width: 35em){
+    #ws-logo {
+		transform: translateY(-5px);
+	}
+}
 </style>

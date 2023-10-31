@@ -6,8 +6,8 @@
     <nav>
       <ul id="primary-navigation" class="primary-navigation flex" data-visible="false">
         <li><a href="#home">Home</a></li>
-        <li><a href="#aboutMe">About Me</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#aboutMe">About Me</a></li>
       </ul>
     </nav>
   </header>
@@ -86,7 +86,7 @@ nav a {
   color: #202020;
 }
 
-@media (max-width: 35em) {
+/* @media (max-width: 35em) {
   #primary-navigation {
     position: fixed;
     z-index: 1000;
@@ -103,9 +103,9 @@ nav a {
     transform: translateX(100%);
 
     transition: transform .25s ease-out;
-  }
+  } */
 
-  #primary-navigation[data-visible=true]{
+  /* #primary-navigation[data-visible=true]{
     transform: translateX(0);
   }
   
@@ -131,11 +131,11 @@ nav a {
     background: url('/assets/menu-close.svg');
     filter: invert(1);
   }
-}
+} */
 
 footer {
   background: var(--yellow);
-  height: 5em;
+  height: 6em;
   bottom: 0;
   display: flex;
   justify-content: center;
@@ -169,6 +169,7 @@ footer li a {
 .container {
   width: min(1440px, 100%);
   margin: auto;
+  box-sizing: border-box;
 }
 .flex {
   display: flex;
@@ -205,6 +206,101 @@ footer li a {
     49px 49px 80px rgba(0, 0, 0, 0.07);
     --neu: 20px 20px 60px #d9d9d9,
             -20px -20px 60px #ffffff;
+}
+
+/*Global adjustments */
+.about, .mobile, .mobile-title h2 {
+  transition: .25s;
+}
+
+@media (max-width: 35em){
+  .even-columns {
+    padding-bottom: 0 !important;
+  }
+
+  .coding-column {
+    order: 0 !important;
+  }
+
+  .coding-icon-list, .design-icon-list {
+    gap: 0 !important;
+    justify-content: flex-end;
+  }
+
+  .coding-icon, .design-icon {
+    width: 45%;
+  }
+
+  .design-icon h3, .coding-icon h3 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  #js-lottie-container, #css-lottie-container, #html-lottie-container, #vue-lottie-container, #bs-lottie-container, #ps-lottie-container, #ai-lottie-container, #ae-lottie-container, #pr-lottie-container {
+    width: 70%;
+  }
+
+  #projects .title {
+    padding-top: 0;
+  }
+
+  /* .project-icons {
+    padding-top: 0 !important;
+  } */
+
+  .project-icons-list {
+    margin: 0;
+  }
+
+  .wrapper h1 {
+    margin: 0.5em 0 0 0;
+    text-align: center !important;
+  }
+
+  .about {
+    position: relative !important;
+    left: 0;
+    top: 0;
+    order: 1;
+    
+    padding: 1em !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+
+  .about p {
+    margin: 0;
+  }
+
+  p {
+    font-size: 1rem !important;
+  }
+
+  .even-columns{
+    flex-direction: column;
+  }
+  .column-one {
+    flex: 1;
+    order: 1;
+  }
+
+  .column-two {
+    flex: 1;
+  }
+
+  .mobile-title h2{
+    padding: 0.5em 1em !important;
+    border-radius: 0 !important;
+  }
+
+  .mobile {
+    width: 46% !important;
+  }
+
+  .column-three, .column-four {
+    margin: 5px !important;
+  }
+
 }
 
 </style>

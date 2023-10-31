@@ -42,7 +42,7 @@
 
 </script>
 
-<style>
+<style scoped>
 .contact {
     padding-top: 4em;
     padding-bottom: 4em;
@@ -50,6 +50,7 @@
 }
 
 div.title h1 {
+    font-size: 3rem;
     margin: 0;
     padding-bottom: 1em;
 }
@@ -106,7 +107,7 @@ textarea {
     color: black;
     border: 1px #306782 solid;
     /* padding-inline: 0; */
-    margin-top: 1em;
+    margin: 1em 0 2em 0;
     max-width: 100%;
     box-sizing: border-box;
 }

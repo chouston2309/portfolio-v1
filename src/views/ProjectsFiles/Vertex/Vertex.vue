@@ -141,7 +141,7 @@
     padding: 1em;
     margin: auto;
     font-size: 1.5rem;
-    background: var(--blue);
+    background: linear-gradient(135deg, var(--yellow), var(--red));
     color: white;
     border-radius: 10px;
     text-transform: uppercase;

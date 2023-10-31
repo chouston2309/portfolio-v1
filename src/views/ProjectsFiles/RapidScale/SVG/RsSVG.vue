@@ -50,7 +50,7 @@
 }
 
 #sun {
-    transition: .55s
+    transition: .55s;
 }
 
 #sun-middle {
@@ -75,5 +75,24 @@
 
 #rs-logo.active #cloud-middle {
     fill: var(--yellow);
+}
+
+@media (max-width: 35em){
+    #rs-logo {
+		width: 140%;
+		transform: translate(-4px, -4.5px);
+	}
+
+	#rs-logo.active {
+		transform: translateX(-4px);
+	}
+
+	#rs-logo.active {
+		transform: translate(-4px, -1px);
+	}
+
+	#rs-logo.active #sun {
+    	transform: translateY(-80px);
+	}
 }
 </style>
