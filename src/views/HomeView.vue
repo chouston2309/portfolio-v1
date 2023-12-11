@@ -1,7 +1,7 @@
 <template>
   <div id="home" class="container-home">
     <div class="hero flex">
-      <h1>[hero image]</h1>
+      <img src="./Photos/portfolio-hero.jpg">
     </div>
     <div class="container">
       <div class="even-columns">

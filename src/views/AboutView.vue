@@ -22,7 +22,7 @@
           <div class="info">
             <div class="info-line summary">
               <h3>Summary</h3>
-              <p>Web developer that has created company storefront websites, global landing pages, and added new functionality to sites. Developed experience working with brand guidelines and ensuring sites achieve the desired performance of clients. Aspiring to advance my skillset in web development and pursue new possibilities in this industry.<br><br>My previous work experience in consulting and public policy enabled me to grow my skills working with clients, understanding their needs, and communicating that information to my team.</p>
+              <p>Blending a robust foundation in public policy and government management consulting with a newfound passion for coding and design, I offer a distinctive skill set to web development. This fusion of analytical problem-solving, strategic project management, and a genuine enthusiasm for design ensures a comprehensive approach to crafting visually appealing and user-centric web solutions. I am poised to contribute a unique blend of technical expertise and creative flair, making me a valuable asset to any team seeking an innovative and well-rounded professional.</p>
             </div>
             <div class="info-line education">
               <h3>Education</h3>
@@ -33,19 +33,19 @@
               <div class="work">
                 <div class="work-line">
                   <h4>Brand Fuel / Online Services Coordinator / 2022-Present</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque molestias quis distinctio maiores debitis! Hic, porro quibusdam vel quidem doloremque natus cumque consectetur. Esse beatae placeat hic! Quidem dolore, maxime error est possimus aspernatur obcaecati facilis. Harum et odit consectetur.</p>
+                  <p>Collaborate with client companies to design and build customized online stores and global landing pages, employing a blend of technical expertise in JavaScript, HTML, and CSS, along with graphic design skills maintaining a unified and brand-consistent online presence. Manage end-to-end responsibilities, from configuring backend platforms, providing IT support, to automating tasks with JavaScript, ensuring a comprehensive and seamless online experience.</p>
                 </div>
                 <div class="work-line">
                   <h4>Amazon / Flex Driver / Fairfax, VA - Raleigh, NC / 2020-2022</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque porro similique odio quibusdam molestiae exercitationem eos, eveniet voluptas recusandae animi aut quod aspernatur enim nesciunt magni repellat. Delectus, et.</p>
+                  <p>Executed efficient package pickups and deliveries as a driver, adhering to set routes and schedules.</p>
                 </div>
                 <div class="work-line">
                   <h4>Logistics Management Institute (LMI) / Government Management Consultant / McLean, VA / 2019-2020</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque porro similique odio quibusdam molestiae exercitationem eos, eveniet voluptas recusandae animi aut quod aspernatur enim nesciunt magni repellat. Delectus, et.</p>
+                  <p>Engaged in the Department of State Office of Logistics Management's 10-year technology roadmap initiative, actively conducting in-depth analysis, researching technology trends, and participating in the strategic development of the DoS's modernization vision.</p>
                 </div>
                 <div class="work-line">
                   <h4>VMWare / Washington, D.C. / Global Government and Public Policy Intern / 2018</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque porro similique odio quibusdam molestiae exercitationem eos, eveniet voluptas recusandae animi aut quod aspernatur enim nesciunt magni repellat. Delectus, et.</p>
+                  <p>Researched and assessed the impact of cloud computing legislation on VMWare, attending congressional hearings, collaborating with lobbyists to align legislative developments with business goals, and producing executive-level documentation and monthly newsletters for the Global Government and Public Policy branch.</p>
                 </div>
               </div>
             </div>
